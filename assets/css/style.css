@@ -1,0 +1,11 @@
+/* includes padding when setting element sizes for the entire document*/
+* {
+    box-sizing:border-box
+}
+
+/* declare a color set globally to be called later */
+:root {
+    --first: rgb(255, 0, 0);
+    --second: rgb(17, 0, 255);
+    --third: rgb(9, 255, 0);
+}
